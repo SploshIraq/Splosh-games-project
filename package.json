@@ -1,0 +1,20 @@
+{
+  "name": "arabic-discord-games-bot",
+  "version": "1.0.0",
+  "description": "Arabic Discord games bot with embed cards",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.100",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.7",
+    "gifenc": "^1.0.3",
+    "sharp": "^0.35.5"
+  }
+}
